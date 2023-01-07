@@ -4,7 +4,7 @@ const Discover = () => {
   return (
     <div
       className='discover flex flex-col items-center justify-start px-[5rem]
-        bg-[#020917] h-[60rem] pt-[18rem] mt-[-10rem] relative z-[2] rounded-b-[5rem]'
+        bg-[#020917] h-[60rem] pt-[16rem] mt-[-10rem] relative z-[2] rounded-b-[5rem]'
     >
       <img src={path1} alt='path graphics element' className='w-[5rem]' />
       {/* heading */}
@@ -17,7 +17,7 @@ const Discover = () => {
         </span>
       </div>
       {/* features */}
-      <div className='features flex items-center justify-around m6-[6rem] w-full'>
+      <div className='features flex items-center justify-around m6-[6rem] w-full py-6'>
         <Feature icon='group1.png' title='Live Music' />
         <Feature icon='musicIcon.png' title='Live Music' />
         <Feature icon='group2.png' title='Home Studio' />

@@ -4,7 +4,7 @@ const Download = () => {
   return (
     <div
       className='flex flex-col items-center justify-start relative px-[5rem] h-[48rem] pt-[18rem] mt-[-10rem]
-    z-[0] rounded-b-[5rem] bg-[#020917]'
+    z-[2] rounded-b-[5rem] bg-[#020917]'
     >
       {/* path icon */}
       <img src={path1} alt='' className='w-[5rem]' />

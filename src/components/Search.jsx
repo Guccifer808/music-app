@@ -9,34 +9,34 @@ import MusicPlayer from './MusicPlayer';
 
 const Search = () => {
   return (
-    <div className='search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]'>
+    <div className='search relative h-[65rem] px-[5rem] bg-[#081730] pt-[10rem] pb-[10rem] mt-[-10rem] z-[3] flex items-center justify-between rounded-b-[5rem]'>
       {/* left */}
 
       <div className='left flex-1'>
         <img
           src={bgGraphics}
           alt='background image graphics'
-          className='absolute top-[15rem] left-[-65rem]'
+          className='absolute top-[10rem] left-[-65rem]'
         />
         <img
           src={fragment1}
           alt='background image graphics'
-          className='absolute w-[16rem] top-[26rem]'
+          className='absolute w-[16rem] top-[16rem]'
         />
         <img
           src={fragment2}
           alt='background image graphics'
-          className='absolute w-[9rem] top-[32.7rem] left-[7rem]'
+          className='absolute w-[9rem] top-[22.7rem] left-[7rem]'
         />
         <img
           src={fragment3}
           alt='background image graphics'
-          className='absolute w-[9rem] top-[33rem] left-[17rem]'
+          className='absolute w-[9rem] top-[23rem] left-[17rem]'
         />
         <img
           src={fragment4}
           alt='background image graphics'
-          className='absolute w-[17rem] top-[50rem] left-[2rem]'
+          className='absolute w-[17rem] top-[40rem] left-[2rem]'
         />
       </div>
       {/* right */}

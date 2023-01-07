@@ -3,7 +3,10 @@ import path2 from '../assets/images/path2.png';
 import trackImage from '../assets/images/group4.png';
 const MusicPlayer = () => {
   return (
-    <div className='musicPlayer flex flex-col px-5 py-3 mt-5 w-full border-2 border-black bg-[#232A4E] rounded-xl'>
+    <div
+      className='musicPlayer flex flex-col px-5 py-3 mt-5 w-full border-2 border-black 
+    bg-[#232A4E] rounded-xl'
+    >
       {/* top part */}
       <div className='top flex items-center justify-between'>
         {/* profile */}

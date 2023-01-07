@@ -1,0 +1,2 @@
+- react-visibility-sensor
+- framer-motion

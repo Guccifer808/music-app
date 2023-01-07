@@ -19,7 +19,7 @@ const Discover = () => {
       {/* features */}
       <div className='features flex items-center justify-around m6-[6rem] w-full py-6'>
         <Feature icon='group1.png' title='Live Music' />
-        <Feature icon='musicIcon.png' title='Live Music' />
+        <Feature icon='musicIcon.png' title='Daily Music' />
         <Feature icon='group2.png' title='Home Studio' />
       </div>
     </div>

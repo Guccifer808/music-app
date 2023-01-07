@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import VisibilitySensor from 'react-visibility-sensor';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 import { motion } from 'framer-motion';
 
 const Feature = ({ icon, title }) => {
@@ -15,7 +15,9 @@ const Feature = ({ icon, title }) => {
     },
   };
   return (
-    <VisibilitySensor onChange={(isVisible) => setElementIsVisible(isVisible)}>
+    <ReactVisibilitySensor
+      onChange={(isVisible) => setElementIsVisible(isVisible)}
+    >
       <div className='feature flex flex-col items-center justify-center text-center mx-12 relative'>
         {/* icon */}
         <motion.div
@@ -41,7 +43,7 @@ const Feature = ({ icon, title }) => {
           Learn More
         </span>
       </div>
-    </VisibilitySensor>
+    </ReactVisibilitySensor>
   );
 };
 

@@ -5,7 +5,7 @@ import detail2 from '../assets/images/detail2.png';
 import detail3 from '../assets/images/detail3.png';
 import detail4 from '../assets/images/detail4.png';
 import React, { useState } from 'react';
-import VisibilitySensor from 'react-visibility-sensor';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -46,7 +46,7 @@ const Hero = () => {
   };
 
   return (
-    <VisibilitySensor
+    <ReactVisibilitySensor
       onChange={(isVisible) => setElementIsVisible(isVisible)}
       minTopValue={400}
     >
@@ -112,7 +112,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </VisibilitySensor>
+    </ReactVisibilitySensor>
   );
 };
 

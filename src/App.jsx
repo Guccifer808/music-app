@@ -1,6 +1,8 @@
 import Discover from './components/Discover';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import MusicPlayer from './components/MusicPlayer';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <Hero />
       <Discover />
+      <Search />
+      <MusicPlayer />
     </div>
   );
 }

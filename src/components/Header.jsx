@@ -1,5 +1,5 @@
 import CenterMenu from './CenterMenu';
-import musicLogo from '../assets/images/musicLogo.png';
+import musicLogo from '../assets/images/MusicLogo.png';
 
 const Header = () => {
   //styles

@@ -12,7 +12,7 @@ const Discover = () => {
         <span>
           An Amazing App Will Change Your
           <span>
-            <b>Music Experience</b>
+            <b> Music Experience</b>
           </span>
         </span>
       </div>
